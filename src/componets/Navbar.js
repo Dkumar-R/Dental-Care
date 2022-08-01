@@ -1,8 +1,5 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom";
 
@@ -23,7 +20,7 @@ export default function Navbar() {
       <main className="w-full">
         {/* <!-- start header --> */}
         <header className=' absolute top-0 left-0 w-full px-4 z-50 sm:px-8 lg:px-16 xl:px-40 2xl:px-64'>
-          <div className="hidden md:flex justify-between items-center py-2 border-b text-sm py-3" >
+          <div className="hidden md:flex justify-between items-center  border-b text-sm py-3" >
             <div className=''>
               <ul className='flex text-white'>
                 <li>

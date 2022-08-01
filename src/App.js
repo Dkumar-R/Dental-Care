@@ -4,7 +4,6 @@ import './App.css';
 import React from "react";
 import Navbar from'./componets/Navbar'
 import {
-  BrowserRouter as Router,
   Route,
   BrowserRouter,
   Routes
