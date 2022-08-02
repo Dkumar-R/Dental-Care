@@ -78,11 +78,11 @@ export default function Navbar() {
             <div className='hidden md:block w-full md:w-auto ' id='menu'>
               <nav className='w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none'>
                 <ul className='md:flex items-center '>
-                  <li className='py-2 inline-block md:text-white md:hidden lg:block font-semibold'><Link to="/about">About Us</Link> </li>
+                  <li className='py-2 inline-block md:text-white md:hidden lg:block font-semibold'><Link to="">About Us</Link> </li>
                   <li className='md:ml-4'><Link className='py-2 inline-block md:text-white md:px-2 font-semibold' to="">Treatment</Link></li>
                   <li className='md:ml-4'><Link className='py-2 inline-block md:hidden lg:block md:text-white md:px-2 font-semibold' to="">Blog</Link></li>
                   <li className='md:ml-4'><Link className='py-2 inline-block  md:text-white md:px-2 font-semibold' to="">Testimonials</Link></li>
-                  <li className='md:ml-4'><Link className='py-2 inline-block md:text-white md:px-2 font-semibold' to="/">Contact Us</Link></li>
+                  <li className='md:ml-4'><Link className='py-2 inline-block md:text-white md:px-2 font-semibold' to="">Contact Us</Link></li>
                   <li className='md:ml-6 mt-3 md:mt-0'><Link className='inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded ' to="/appointment">Book Appointment</Link></li>
                 </ul>
               </nav>
